@@ -1,7 +1,8 @@
-#include<stdio.h>
-/*
+#include <stdio.h>
+#include <unistd.h>
+/**
  * main - Entry
- * Return: 1 (Sucess)
+ * Return: 1
  */
 int main(void)
 {
