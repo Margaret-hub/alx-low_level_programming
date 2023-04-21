@@ -1,14 +1,12 @@
 #include <stdio.h>
 
-/**
- * main - Entry point
- * main - serves as the starting point for program execution.
+/*
+ * main - print a line of code using puts
  *
- * Return: Always 0 (Success)
- * Return: ends the execution of a function, and returns control to the calling function
+ * Return: 0
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	puts("\"Programming is like building a multilingual puzzle");   
+   	return (0);
 }
