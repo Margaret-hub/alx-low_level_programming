@@ -1,11 +1,15 @@
+#!/bin/bash
 #include <stdio.h>
+
 /**
  * main - Entry point
+ * main - serves as the starting point for program execution.
  *
- * Return: Always 0 (Sucess)
+ * Return: Always 0 (Success)
+ * Return: ends the execution of a function, and returns control to the calling function
  */
-nt main(void)
+int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
-	return 0;
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
