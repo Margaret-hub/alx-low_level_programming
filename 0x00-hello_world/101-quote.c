@@ -1,7 +1,7 @@
-#include <unistd.h>
+#include<stdio.h>
 /*
  * main - Entry
- * Return: 1
+ * Return: 1 (Sucess)
  */
 int main(void)
 {
