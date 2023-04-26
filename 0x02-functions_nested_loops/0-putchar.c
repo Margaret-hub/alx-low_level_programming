@@ -1,15 +1,21 @@
-#include "stdio.h"
+#include "main.h"
+
 /**
- * main - function
- * Return: Always 0
- */
+ * main - prints _putchar, followed by a new line.
+ * Return: 0
+**/
+
 int main(void)
 {
-	char i;
+	unsigned int i;
+	char c[] = "_putchar";
 
-	for (i = 'a' ; i <= 'z',i++);
-	putchar(i);
-	putchar('\n');
+	for (i = 0; i <= 7; i++)
+	{
+		_putchar(c[i]);
+	}
+
+	_putchar('\n');
 
 	return (0);
 }
