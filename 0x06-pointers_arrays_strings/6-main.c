@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-char str[] = "Capitalize.\nhello world hello world\thello\n";
+char str[] = "Expect best.Capitalize what.\nhello world!\thello world.\n";
 char *ptr;
 ptr = cap_string(str);
 printf("%s", ptr);
