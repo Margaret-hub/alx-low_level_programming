@@ -10,7 +10,7 @@ int main(void)
 {
 char s[] = "Expect best. Prepare for worst. Capitalize on what comes.\n";
 char *p;
-p = leet(s);
+p = leet;
 printf("%s", p);
 printf("%s", s);
 return (0);
