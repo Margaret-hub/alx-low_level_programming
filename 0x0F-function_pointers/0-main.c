@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "function_pointers.h"
-
 /**
  * print_name_as_is - prints a name as is
  * @name: name of the person
@@ -24,6 +23,7 @@ unsigned int i;
 printf("Hello, my uppercase name is ");
 i = 0;
 while (name[i])
+{
 if (name[i] >= 'a' && name[i] <= 'z')
 {
 putchar(name[i] + 'A' - 'a');
@@ -35,7 +35,6 @@ putchar(name[i]);
 i++;
 }
 }
-
 /**
  * main - check the code
  *
