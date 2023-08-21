@@ -2,10 +2,10 @@ import random
 import ctypes
 
 cops = ctypes.CDLL('./100-operations.so')
-a = random.randint(-111, 111)
-b = random.randint(-111, 111)
-print("{} + {} = {}".format(a, b, cops.add(a, b)))
-print("{} - {} = {}".format(a, b, cops.sub(a, b)))
-print("{} x {} = {}".format(a, b, cops.mul(a, b)))
-print("{} / {} = {}".format(a, b, cops.div(a, b)))
-print("{} % {} = {}".format(a, b, cops.mod(a, b)))
+c = random.randint(-111, 111)
+d = random.randint(-111, 111)
+print("{} + {} = {}".format(c, d, cops.add(c, d)))
+print("{} - {} = {}".format(c, d, cops.sub(c, d)))
+print("{} x {} = {}".format(c, d, cops.mul(c, d)))
+print("{} / {} = {}".format(c, d, cops.div(c, d)))
+print("{} % {} = {}".format(c, d, cops.mod(c, d)))
